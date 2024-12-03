@@ -7,7 +7,7 @@ const subscription = web3.eth.subscribe("pendingTransactions", (err, res) => {
     if (err) console.error(err);
 });
 
-const account1 = "0xa7B....";
+const account1 = "0xa7B...";
 
 const init_web3 = function () {
     subscription.on("data", (txHash) => {
