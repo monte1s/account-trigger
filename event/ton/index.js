@@ -6,8 +6,7 @@ import { getAddressTransactions } from "./address-transactions.js";
   const provider = new TonWeb.HttpProvider(
     "https://toncenter.com/api/v2/jsonRPC",
     {
-      apiKey:
-        "a11b9aa30744af888be2516daad716003db714e9c7481615db97d08a1776157a",
+      apiKey: "...",
     }
   );
 
